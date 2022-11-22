@@ -1,0 +1,73 @@
+/* Prevent unnecessary vertical scrolling */
+body {
+    height: auto;
+}
+
+/* Spacing */
+.main {
+    margin: 4em 12em 0 12em;
+}
+
+/* Change DataTables copy button popup style */
+.dt-button-info h2 {
+    font-size: 1em;
+    background: #f9fafb;
+    display: none;
+}
+
+/* Change DataTables copy button popup style */
+.dt-button-info
+{
+    font-size: 1em;
+    background: #f9fafb;
+    border: 0 !important;
+}
+
+/* Change Semantic UI label colors */
+.ui.label  {
+    color: rgba(0, 0, 0, 0.87) !important;
+    background-color: #f9fafb !important;
+}
+
+/* Change Semantic UI button color */
+.ui.button {
+    background-color: #f9fafb;
+}
+
+/* Change Semantic UI active menu item color */
+.ui.vertical.menu .active.item {
+    background-color: #f9fafb;
+}
+
+/* Spacing */
+.ui.buttons {
+    margin: 14px 0 0 0 !important;
+}
+
+/* Spacing */
+.dataTables_paginate {
+    margin-top: 1em;
+}
+
+/* Change colors/style of expand/collapse buttons for responsive DataTable rows on mobile */
+.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before,
+.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before,
+.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
+    color: rgba(0, 0, 0, 0.87) !important;
+    background-color: #f9fafb !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+    top: 51% !important;
+}
+
+/* Alternating (striped) row colors */
+.even {
+    background-color: rgba(249, 250, 251, 0.5);
+}
+
+/* Prevent horizontal tab menu from overflowing */
+.ui.tabular.menu {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+click==7.1.2
+click-default-group==1.2.2
+colored==1.4.2
+filelock==3.0.12
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+psutil==5.7.0
+python-dateutil==2.8.1
+python-interface==1.6.0
+six==1.15.0
+sqlite-utils==2.9.1
+tabulate==0.8.7
+Werkzeug==1.0.1
