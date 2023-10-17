@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <div class="two wide column">
+        <div class="three wide column">
             <div class="column">
                 {% if tables %}
                     <div class="ui vertical menu" style="width: 100%;">
@@ -25,7 +25,7 @@
                 {% endif %}
             </div>
         </div>
-        <div class="fourteen wide column">
+        <div class="thirteen wide column">
             {% if tables %}
                 {% for table, columns in tables.items() %}
                     <div class="ui tab{% if loop.index == 1 %} active{% endif %}" data-tab="{{ table | replace('_', '-') }}">
